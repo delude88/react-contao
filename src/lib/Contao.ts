@@ -1,10 +1,11 @@
+import fetch, {Response} from "node-fetch";
+import Page from './models/Page';
 import SiteMap from './models/SiteMap';
-import Page from "./models/Page";
+import SiteMapEntry from './models/SiteMapEntry';
 
 class Contao {
     private readonly _url: string;
     private _apiUrl: string | null;
-
 
     constructor(url: string) {
         this._url = url;
@@ -16,31 +17,35 @@ class Contao {
 
     public getApiUrl(): string {
         if (!this._apiUrl) {
-            if (this._url.substr(this._url.length - 1, 1) === '/') {
-                this._apiUrl = this._url + "api";
-            } else {
-                this._apiUrl = this._url + "/api";
-            }
+            this._apiUrl = this._url.substr(this._url.length - 1, 1) === '/' ? this._url + 'api' : this._url + '/api';
         }
         return this._apiUrl;
     }
 
-    public getSiteMap = async (): Promise<SiteMap> => {
-        const response: Response = await fetch(this.getApiUrl() + "/sitemap");
+    public readonly getSiteMap = async (): Promise<SiteMap> => {
+        const response: Response = await fetch(this.getApiUrl() + '/sitemap');
         if (response.ok) {
             return new SiteMap(await response.json());
         }
-        throw Error("Could not get SiteMap from " + this._apiUrl);
+        throw Error('Could not get SiteMap from ' + this._apiUrl);
     };
 
-    public getPage = async (url: string): Promise<Page> => {
-        const response: Response = await fetch(this.getApiUrl() + "/page/?" + url);
+    public readonly getStartPage = async (): Promise<Page> => {
+        const siteMap: SiteMap = await this.getSiteMap();
+        if (siteMap.entries.length > 0) {
+            const siteMapEntry: SiteMapEntry = siteMap.entries[0];
+            return this.getPage(siteMapEntry.url);
+        }
+        throw Error('No start page defined');
+    };
+
+    public readonly getPage = async (url: string): Promise<Page> => {
+        const response: Response = await fetch(this.getApiUrl() + '/page?url=' + url);
         if (response.ok) {
             return new Page(await response.json());
         }
-        throw Error("Could not get Page from " + this._apiUrl);
+        throw Error('Could not get Page from ' + this._apiUrl);
     };
-
 }
 
 export default Contao;
