@@ -1,6 +1,6 @@
 import Contao from './lib/Contao';
 
-console.log("HELLO WORLD");
+const url = "test.com";
 
-const contao: Contao = new Contao("https://valensina-kids.tobiashegemann.de");
+const contao: Contao = new Contao(url);
 contao.getStartPage();

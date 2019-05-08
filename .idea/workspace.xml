@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d340e474-b885-4802-9df4-bd6394f5ca18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Contao.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/models/SiteMapEntry.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Contao.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Contao.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/models/Article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/Article.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/models/IContentElement.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/models/Page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/Page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/models/SiteMap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/SiteMap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Contao.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Contao.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +14,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/Contao.ts">
+        <entry file="file://$PROJECT_DIR$/src/lib/Contao.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#42#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,19 +50,19 @@
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/lib/models/SiteMapPage.ts" />
-        <option value="$PROJECT_DIR$/src/lib/Contao.spec.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/src/lib/models/ContentElement.ts" />
         <option value="$PROJECT_DIR$/build/main/lib/models/Page.js" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/src/test.js" />
-        <option value="$PROJECT_DIR$/src/test.ts" />
         <option value="$PROJECT_DIR$/src/lib/Contao.ts" />
         <option value="$PROJECT_DIR$/src/lib/models/Article.ts" />
         <option value="$PROJECT_DIR$/src/lib/models/SiteMapEntry.ts" />
         <option value="$PROJECT_DIR$/src/lib/models/Page.ts" />
         <option value="$PROJECT_DIR$/src/lib/models/SiteMap.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/test.ts" />
+        <option value="$PROJECT_DIR$/src/lib/Contao.spec.ts" />
       </list>
     </option>
   </component>
@@ -105,13 +94,6 @@
               <item name="react-contao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-contao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-contao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,24 +209,24 @@
       <updated>1557302843480</updated>
       <workItem from="1557302844585" duration="626000" />
       <workItem from="1557303587199" duration="4792000" />
-      <workItem from="1557309772171" duration="3772000" />
+      <workItem from="1557309772171" duration="3893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9190000" />
+    <option name="totallyTimeSpent" value="9311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6476064" visible="true" weight="0.25377283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6472987" visible="true" weight="0.25377283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.35239363" side_tool="true" visible="true" weight="0.25377283" />
+      <window_info id="npm" order="2" sideWeight="0.35270134" side_tool="true" visible="true" weight="0.25377283" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841145" visible="true" weight="0.4510949" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49841145" weight="0.4510949" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,7 +236,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015886" side_tool="true" weight="0.32983023" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4988086" weight="0.2839416" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4988086" visible="true" weight="0.2839416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,16 +364,6 @@
     <entry file="file://$PROJECT_DIR$/.nyc_output/3749522a-f6e6-49a0-b31f-8a9ca538d671.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/Contao.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="77" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="77" />
-          <folding>
-            <element signature="e#42#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/main/lib/Contao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -417,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -454,6 +419,23 @@
           <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/Contao.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#42#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
