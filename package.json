@@ -1,0 +1,25 @@
+{
+  "name": "react-contao",
+  "version": "0.0.1",
+  "description": "Helper module for react to communicate with Contao via JSON Rest API",
+  "main": "package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delude88/react-contao.git"
+  },
+  "keywords": [
+    "react",
+    "contao",
+    "rest",
+    "api"
+  ],
+  "author": "Tobias Hegemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delude88/react-contao/issues"
+  },
+  "homepage": "https://github.com/delude88/react-contao#readme"
+}
