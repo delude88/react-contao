@@ -1,0 +1,20 @@
+{
+  "parser": "typescript-eslint-parser",
+  "extends": ["airbnb", "prettier", "typescript", "typescript/react", "typescript/prettier"],
+  "plugins": ["typescript"],
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": true,
+      "typescript": true
+    },
+    "import/parsers": {
+      "typescript-eslint-parser": [".ts", ".tsx", { "comment": true }]
+    }
+  }
+}
