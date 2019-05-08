@@ -1,6 +1,6 @@
 {
   "name": "react-contao",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helper module for react to communicate with Contao via JSON Rest API",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
